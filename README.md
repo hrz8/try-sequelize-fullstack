@@ -33,6 +33,7 @@ DATABASE_PASSWORD=somepw
 DATABASE_HOST=localhost
 DATABASE_PORT=5432
 DATABASE_TYPE=postgres
+APP_PORT=3000
 ```
 
 ## How to run

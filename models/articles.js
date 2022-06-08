@@ -19,7 +19,7 @@ module.exports = (sequelize, DataTypes) => {
     sequelize,
     modelName: 'Article',
     tableName: 'articles',
-    timestamps: false
+    timestamps: false // exclude createdAt, updatedAt
   });
   return Article;
 };
